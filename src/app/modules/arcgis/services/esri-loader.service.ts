@@ -63,7 +63,7 @@ export class EsriLoaderService {
   private loadJs(): Promise<Function> {
     return new Promise((resolve) => {
 
-      if (typeof window['require'] !== 'undefined') {
+      if (window['require'] !== undefined) {
         resolve(window['require']);
         return;
       }

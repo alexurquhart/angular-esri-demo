@@ -10,7 +10,7 @@ import { MapComponent } from './components/map/map.component';
     CommonModule,
   ],
   providers: [
-    EsriLoaderService
+    EsriLoaderService,
   ]
 })
 export class ArcgisModule { }

@@ -7,6 +7,7 @@ import { ArcgisModule } from './modules/arcgis/arcgis.module';
 import { AppComponent } from './app.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { SettingsService } from './services/settings.service';
+import { MapPointService } from './services/map-point.service';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { SettingsService } from './services/settings.service';
   ],
   providers: [
     SettingsService,
+    MapPointService
   ],
   bootstrap: [AppComponent]
 })

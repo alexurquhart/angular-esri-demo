@@ -2,7 +2,7 @@
   <mat-toolbar color="primary">angular-esri demo</mat-toolbar>
   <div class="container">
     <div class="map">
-      <app-map></app-map>
+      <app-map (pointerDown)="click($event)"></app-map>
     </div>
     <div class="sidebar">
       <app-sidebar></app-sidebar>
